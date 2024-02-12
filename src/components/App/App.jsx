@@ -6,7 +6,7 @@ import viteLogo from '/vite.svg'
 import css from "./App.module.css";
 import clsx from 'clsx';
 
-export const App = () =>{
+const App = () =>{
   const [count, setCount] = useState(0);
   
   return (
@@ -28,3 +28,5 @@ export const App = () =>{
     </>
   )
 }
+
+export default App;
